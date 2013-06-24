@@ -1,0 +1,67 @@
+Player: init engine
+Direct3D:
+    Version:  Direct3D 9.0c [aticfx32.dll 8.17.10.1140]
+    Renderer: ATI FirePro M7820
+    Vendor:   ATI
+    VRAM:     1024 MB
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+           ArgumentException: Getting control 0's position in a group with only 0 controls when doing KeyDown
+Aborting
+
+UnityEngine.GUILayoutGroup.GetNext () 
+UnityEngine.GUILayoutUtility.BeginLayoutArea (UnityEngine.GUIStyle style, System.Type LayoutType) 
+UnityEngine.GUILayout.BeginArea (Rect screenRect, UnityEngine.GUIContent content, UnityEngine.GUIStyle style) 
+UnityEngine.GUILayout.BeginArea (Rect screenRect) 
+MainMenuGUI.OnGUI () 
+ 
+(Filename:  Line: -1)
+
+       Total Object count 859 (Before unload 270)
+ArgumentException: Getting control 0's position in a group with only 0 controls when doing KeyDown
+Aborting
+
+UnityEngine.GUILayoutGroup.GetNext () 
+UnityEngine.GUILayoutUtility.BeginLayoutArea (UnityEngine.GUIStyle style, System.Type LayoutType) 
+UnityEngine.GUILayout.BeginArea (Rect screenRect, UnityEngine.GUIContent content, UnityEngine.GUIStyle style) 
+UnityEngine.GUILayout.BeginArea (Rect screenRect) 
+MainMenuGUI.OnGUI () 
+ 
+(Filename:  Line: -1)
+
+Total Object count 196 (Before unload 787)
+ArgumentException: Getting control 0's position in a group with only 0 controls when doing KeyDown
+Aborting
+
+UnityEngine.GUILayoutGroup.GetNext () 
+UnityEngine.GUILayoutUtility.BeginLayoutArea (UnityEngine.GUIStyle style, System.Type LayoutType) 
+UnityEngine.GUILayout.BeginArea (Rect screenRect, UnityEngine.GUIContent content, UnityEngine.GUIStyle style) 
+UnityEngine.GUILayout.BeginArea (Rect screenRect) 
+MainMenuGUI.OnGUI () 
+ 
+(Filename:  Line: -1)
+
+ Total Object count 860 (Before unload 289)
+ArgumentException: Getting control 0's position in a group with only 0 controls when doing KeyDown
+Aborting
+
+UnityEngine.GUILayoutGroup.GetNext () 
+UnityEngine.GUILayoutUtility.BeginLayoutArea (UnityEngine.GUIStyle style, System.Type LayoutType) 
+UnityEngine.GUILayout.BeginArea (Rect screenRect, UnityEngine.GUIContent content, UnityEngine.GUIStyle style) 
+UnityEngine.GUILayout.BeginArea (Rect screenRect) 
+MainMenuGUI.OnGUI () 
+ 
+(Filename:  Line: -1)
+
+Total Object count 196 (Before unload 787)
+ArgumentException: Getting control 0's position in a group with only 0 controls when doing KeyDown
+Aborting
+
+UnityEngine.GUILayoutGroup.GetNext () 
+UnityEngine.GUILayoutUtility.BeginLayoutArea (UnityEngine.GUIStyle style, System.Type LayoutType) 
+UnityEngine.GUILayout.BeginArea (Rect screenRect, UnityEngine.GUIContent content, UnityEngine.GUIStyle style) 
+UnityEngine.GUILayout.BeginArea (Rect screenRect) 
+MainMenuGUI.OnGUI () 
+ 
+(Filename:  Line: -1)
+
+Cleanup player
