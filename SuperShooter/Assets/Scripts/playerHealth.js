@@ -8,11 +8,30 @@ private var currentHealth = startHealth;
 var blood : Texture;
 var timeAtStart : long;
 var timeNow : long;
+var rocketAmmoPrefab : GameObject;
+var dudeAmmoPrefab : GameObject;
 
+
+function DropAmmo(){
+
+	var n = 0;
+	for(var gunTrigger: GunTrigger in GetComponents(GunTrigger)){
+		if (gunTrigger && gunTrigger.ammoCount > 0){
+			var dropLocation = gameObject.transform.position;
+			dropLocation.x = dropLocation.x + n*1.0;
+			var ammoDrop = Instantiate(gunTrigger.ammoDropPrefab, dropLocation, gameObject.transform.rotation); 
+			var newAmmo = ammoDrop.GetComponentInChildren(Ammo);
+			newAmmo.ammoQuantity = gunTrigger.ammoCount;
+			newAmmo.ammoType = gunTrigger.ammoType;
+			gunTrigger.ammoCount = 0;
+		}
+		n++;
+	}
+}
 function Update(){
 	healthGui.text ="Health: " + currentHealth.ToString();
 	if (currentHealth <= 0){
-			
+		DropAmmo();
 		objectToRelocate.transform.position = destination.transform.position;
 		currentHealth = startHealth;
 	}

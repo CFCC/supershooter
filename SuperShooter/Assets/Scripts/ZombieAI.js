@@ -66,13 +66,13 @@ var rotationSpeed = 5;
 		
 		
 	
-
+	
 }
 function OnExplosion (explosionPosition : Vector3){
 	lookAtPlayer = false;
 	
 	var radius = 20;
-	var maxDamage = 300;
+	var maxDamage = 3000;
 	
 	var distance = Vector3.Distance(transform.position, explosionPosition);
 	
