@@ -8,6 +8,7 @@ var ammoCount = 10;
 var ammoLabel : GUIText;
 var ammoType = "Rockets";
 var ammoPickupSound : AudioClip;
+var ammoDropPrefab : GameObject;
 var player : GameObject;
 
 private var lastFire = -10000.0;
