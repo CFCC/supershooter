@@ -33,9 +33,10 @@ function OnCollisionEnter (c : Collision) : void{
 function OnGUI(){
 	// draws on mountain and in corner
 	//Graphics.DrawTexture(Rect(10, 10, 100, 100), blood);
-	Debug.Log("time at start " + timeAtStart + " " + "time now " + timeNow);
 	if((timeAtStart + 2000000) > timeNow){
-		GUI.DrawTexture(Rect(10,10,100,800), blood);
+	GUI.DrawTexture(Rect(1400,10,-100,800), blood);
+	GUI.DrawTexture(Rect(10,10,100,800), blood);
+		
 	}
 	timeNow = System.DateTime.Now.Ticks;
 	
