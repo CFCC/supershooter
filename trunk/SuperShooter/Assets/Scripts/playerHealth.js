@@ -5,7 +5,7 @@ var objectToRelocate : GameObject;
 var startHealth = 100;
 var healthGui : GUIText;
 private var currentHealth = startHealth;
-
+var blood : Texture;
 
 
 function Update(){
@@ -17,6 +17,12 @@ function Update(){
 	}
 
 }
+function OnGUI(){
+	// draws on mountain and in corner
+	//Graphics.DrawTexture(Rect(10, 10, 100, 100), blood);
+	GUI.DrawTexture(Rect(10,10,100,800), blood);
+
+}
 
 function OnCollisionEnter (c : Collision) : void{
 		
@@ -24,8 +30,8 @@ function OnCollisionEnter (c : Collision) : void{
 			
 			currentHealth -= 10;
 			
+			
 		}
-    Debug.Log("hit~! : " + currentHealth);
 }
 						
 
