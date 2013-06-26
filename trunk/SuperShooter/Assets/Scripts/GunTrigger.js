@@ -40,11 +40,12 @@ function FixedUpdate () {
 		if (lastFire + fireRate < t){
 			var trans = projectileSpawn.transform;
 			var projectile = Instantiate(projectilePrefab, trans.position, projectileOrientToPlayer ? trans.rotation : Quaternion.identity);
-			
+			if(ammoType == "Dudes"){
+				projectile.name = "Decoy";
+			}
 			projectile.GetComponent(Rigidbody).velocity = projectileSpawn.transform.forward * projectileSpeed;
 			
 			ammoCount -= 1;
-			
 			lastFire = t;
 		}
 	}

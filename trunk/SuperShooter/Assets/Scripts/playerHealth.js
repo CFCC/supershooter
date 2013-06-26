@@ -1,4 +1,5 @@
 #pragma strict
+var hitWithin : int;
 var triggerTag : String;
 var destination : GameObject;
 var objectToRelocate : GameObject;
@@ -39,11 +40,9 @@ function Update(){
 }
 
 
-function OnCollisionEnter (c : Collision) : void{
-		if (c.gameObject.tag == triggerTag){
-			timeAtStart = System.DateTime.Now.Ticks;
-			currentHealth -= 10;			
-		}
+function ApplyDamage(number:int){
+	currentHealth -= number;
+	timeAtStart = System.DateTime.Now.Ticks;
 }
 						
 function OnGUI(){
