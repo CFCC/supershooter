@@ -40,7 +40,6 @@ function Update(){
 
 
 function OnCollisionEnter (c : Collision) : void{
-		Debug.LogError("Collision tag:" + c.gameObject.tag);
 		if (c.gameObject.tag == triggerTag){
 			timeAtStart = System.DateTime.Now.Ticks;
 			currentHealth -= 10;			
