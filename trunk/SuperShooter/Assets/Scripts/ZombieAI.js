@@ -1,7 +1,8 @@
+private var startAtack = 0;
+
+var health = 100;
 var corpse : GameObject;
-
-private var health = 100;
-
+var damage : int = 20;
 function Update () {
 
 	var moveSpeed = 10;
@@ -9,6 +10,7 @@ function Update () {
 	var aggroDistance = 100;
 	var targetPlayer : GameObject;
 	var targetPlayerDistance = aggroDistance;
+	
 	
 	var zombiePos = transform.position;	
 	
@@ -31,9 +33,7 @@ function Update () {
 			if (distance <= aggroDistance && (targetPlayer != null || targetPlayerDistance >= distance )){
 				targetPlayer = hit.gameObject;
 				targetPlayerDistance = distance;
-				if(distance <= 1 && hit.gameObject.tag == "player"){
-					gameObject.SendMessage ("ApplyDamage", 10.0);
-				}
+
 								
 			}				
 		}
@@ -46,7 +46,14 @@ function Update () {
 		transform.rotation = Quaternion.Slerp(transform.rotation,
 	    	Quaternion.LookRotation(targetPlayer.transform.position - transform.position), rotationSpeed*Time.deltaTime);
 	    
-	    
+	    if(targetPlayerDistance <= 1.1 && targetPlayer.tag == "Player"){
+			if((startAtack + 1) <= Time.time){
+				Debug.Log(startAtack + " " + Time.time);
+				startAtack = Time.time;
+				targetPlayer.BroadcastMessage ("ApplyDamage", damage);
+				
+			}
+		}
 	    if ((targetPlayerDistance > 5 && targetPlayer.name == "Decoy") || targetPlayer.tag == "Player" && targetPlayerDistance > 1){
 	    	transform.position += transform.forward * moveSpeed * Time.deltaTime;
 		}

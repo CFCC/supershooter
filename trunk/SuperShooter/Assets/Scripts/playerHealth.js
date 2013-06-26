@@ -5,13 +5,14 @@ var destination : GameObject;
 var objectToRelocate : GameObject;
 var startHealth = 100;
 var healthGui : GUIText;
-private var currentHealth = startHealth;
 var blood : Texture;
-var timeAtStart : long;
+
 var timeNow : long;
 var rocketAmmoPrefab : GameObject;
 var dudeAmmoPrefab : GameObject;
 
+private var timeAtStart : long;
+private var currentHealth = startHealth;
 
 function DropAmmo(){
 
