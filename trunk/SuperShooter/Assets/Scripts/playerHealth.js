@@ -40,12 +40,10 @@ function Update(){
 
 
 function OnCollisionEnter (c : Collision) : void{
-		
+		Debug.LogError("Collision tag:" + c.gameObject.tag);
 		if (c.gameObject.tag == triggerTag){
 			timeAtStart = System.DateTime.Now.Ticks;
-			currentHealth -= 10;
-			
-			
+			currentHealth -= 10;			
 		}
 }
 						
@@ -53,8 +51,8 @@ function OnGUI(){
 	// draws on mountain and in corner
 	//Graphics.DrawTexture(Rect(10, 10, 100, 100), blood);
 	if((timeAtStart + 2000000) > timeNow){
-	GUI.DrawTexture(Rect(1400,10,-100,800), blood);
-	GUI.DrawTexture(Rect(10,10,100,800), blood);
+		GUI.DrawTexture(Rect(1900,10,-100,800), blood);
+		GUI.DrawTexture(Rect(10,10,100,800), blood);
 		
 	}
 	timeNow = System.DateTime.Now.Ticks;
