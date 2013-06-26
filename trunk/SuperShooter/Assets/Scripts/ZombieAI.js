@@ -22,7 +22,6 @@ var rotationSpeed = 5;
 				continue;
 				
 			var distance = Vector3.Distance(transform.position, hit.gameObject.transform.position);
-			Debug.Log(distance + " " + hit.gameObject.name);
 		if(hit.gameObject.tag == "Player" || hit.gameObject.name == "Decoy"){
 			// when we find a player, calculate the distance to that players
 			
