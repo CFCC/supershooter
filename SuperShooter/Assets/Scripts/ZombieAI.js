@@ -21,16 +21,19 @@ var rotationSpeed = 5;
 		if (hit == null)
 				continue;
 				
-		if(hit.gameObject.tag == "Player"){
-			// when we find a player, calculate the distance to that players
 			var distance = Vector3.Distance(transform.position, hit.gameObject.transform.position);
+			Debug.Log(distance + " " + hit.gameObject.name);
+		if(hit.gameObject.tag == "Player" || hit.gameObject.name == "Decoy"){
+			// when we find a player, calculate the distance to that players
 			
 			//if the player is closer than the previously found player than store it as the player to attack
-
-			if (distance <= aggroDistance && (targetPlayer != null || targetPlayerDistance >= distance )){
+			if (distance < 0.00000001 && hit.gameObject.name == "Decoy"){
+			} else {	
+				if (distance <= aggroDistance && (targetPlayer != null || targetPlayerDistance >= distance )){
 					targetPlayer = hit.gameObject;
 					targetPlayerDistance = distance;
-				
+								
+				}				
 			
 			}
 			
