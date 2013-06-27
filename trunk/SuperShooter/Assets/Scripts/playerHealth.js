@@ -1,5 +1,4 @@
 #pragma strict
-var hitWithin : int;
 var triggerTag : String;
 var destination : GameObject;
 var objectToRelocate : GameObject;
