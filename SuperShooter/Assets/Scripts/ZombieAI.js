@@ -1,5 +1,5 @@
 private var startAtack = 0;
-var aggroDistance = 100;
+var aggroDistance = 15;
 var health = 100;
 var corpse : GameObject;
 var damage : int = 20;
@@ -17,7 +17,10 @@ function Update () {
 	
 	//find everything thats near
 	var colliders : Collider[] = Physics.OverlapSphere (zombiePos, aggroDistance);
-	
+
+	if(health != 100){
+	aggroDistance = 1000;
+	}	
 	// loop through everything that we found to find players
 	for (var hit in colliders) {
 		if (hit == null)
