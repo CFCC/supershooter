@@ -1,5 +1,5 @@
 private var startAtack = 0;
-//hi
+var aggroDistance = 100;
 var health = 100;
 var corpse : GameObject;
 var damage : int = 20;
@@ -9,7 +9,6 @@ private var targetPlayer : GameObject;
 function Update () {
 
 	var rotationSpeed = 5;
-	var aggroDistance = 100;
 	var targetPlayerDistance = aggroDistance;
 	
 	
