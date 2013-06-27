@@ -3,12 +3,13 @@ private var startAtack = 0;
 var health = 100;
 var corpse : GameObject;
 var damage : int = 20;
+var moveSpeed = 10;
+
+private var targetPlayer : GameObject;
 function Update () {
 
-	var moveSpeed = 10;
 	var rotationSpeed = 5;
 	var aggroDistance = 100;
-	var targetPlayer : GameObject;
 	var targetPlayerDistance = aggroDistance;
 	
 	
@@ -24,7 +25,7 @@ function Update () {
 			continue;
 				
 		
-			//Debug.Log(distance + " " + hit.gameObject.name);
+
 		if(hit.gameObject.tag == "Player" || hit.gameObject.name == "Decoy"){
 			// when we find a player, calculate the distance to that players
 			var distance = Vector3.Distance(transform.position, hit.gameObject.transform.position);
@@ -48,7 +49,6 @@ function Update () {
 	    
 	    if(targetPlayerDistance <= 1.1 && targetPlayer.tag == "Player"){
 			if((startAtack + 1) <= Time.time){
-				Debug.Log(startAtack + " " + Time.time);
 				startAtack = Time.time;
 				targetPlayer.BroadcastMessage ("ApplyDamage", damage);
 				

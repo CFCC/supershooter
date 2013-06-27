@@ -12,7 +12,7 @@ function Explode(){
 	if (causesExplosion){
 		var newexplosion = Instantiate(explosion, gameObject.transform.position, Random.rotation );
 		var radius = 75.0;
-		var power = 4000.0;
+		var power = 10000.0;
 		var explosionPos = gameObject.transform.position;
 		
 		var colliders = Physics.OverlapSphere (explosionPos, radius);
