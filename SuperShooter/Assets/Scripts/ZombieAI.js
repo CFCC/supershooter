@@ -1,5 +1,5 @@
 private var startAtack = 0;
-
+//hi
 var health = 100;
 var corpse : GameObject;
 var damage : int = 20;
