@@ -56,9 +56,10 @@ function DoLayout(){
 		GUILayout.Label("Menu");
 		GUILayout.Space(50);
 		
-		if (Application.loadedLevel != 1 && Application.loadedLevel != 2){
+		if (Application.loadedLevel != 1 && Application.loadedLevel != 2 && Application.loadedLevel != 3){
 			var skirmish = GUILayout.Button("Practice");
 			var campaign = GUILayout.Button("Campaign");
+			var campaign2 = GUILayout.Button("Campaign2");
 		}
 		GUILayout.FlexibleSpace();
 		
@@ -76,6 +77,8 @@ function DoLayout(){
 			Application.LoadLevel(1);
 		}else if (campaign){
 			Application.LoadLevel(2);
+		}else if (campaign2){
+			Application.LoadLevel(3);			
 		}
 		
 	}
