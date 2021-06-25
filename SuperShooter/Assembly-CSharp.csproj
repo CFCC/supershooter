@@ -15,10 +15,10 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{DEDB1489-59AB-C5C0-2987-5797E7265308}</ProjectGuid>
+    <ProjectGuid>{76F96447-25AD-AFCC-24F4-C0DA90C0FE85}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -59,19 +59,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Standard Assets\Camera Scripts\MouseLook.cs" />
-    <Compile Include="Assets\Standard Assets\Camera Scripts\MouseOrbit.cs" />
-    <Compile Include="Assets\Standard Assets\Camera Scripts\SmoothFollow.cs" />
-    <Compile Include="Assets\Standard Assets\Camera Scripts\SmoothLookAt.cs" />
-    <Compile Include="Assets\Standard Assets\Scripts\ActivateTrigger.cs" />
-    <Compile Include="Assets\Standard Assets\Scripts\CombineChildren.cs" />
-    <Compile Include="Assets\Standard Assets\Scripts\DragRigidbody.cs" />
-    <Compile Include="Assets\Standard Assets\Scripts\FPSWalker.cs" />
-    <Compile Include="Assets\Standard Assets\Scripts\MeshCombineUtility.cs" />
-    <Compile Include="Assets\Standard Assets\Scripts\TimedObjectDestructor.cs" />
-    <Compile Include="Assets\Standard Assets\Water\Sources\WaterSimple.cs" />
-    <None Include="Assets\Standard Assets\Blob-Shadow\ShadowProjection.shader" />
-    <None Include="Assets\Standard Assets\Water\Sources\FX-Water Simple.shader" />
+    <Compile Include="Assets\MainMenu\MainMenuGUI.cs" />
+    <Compile Include="Assets\Scripts\Ammo.cs" />
+    <Compile Include="Assets\Scripts\despawn.cs" />
+    <Compile Include="Assets\Scripts\dudeDespawn.cs" />
+    <Compile Include="Assets\Scripts\ExplodeOnContact.cs" />
+    <Compile Include="Assets\Scripts\GunTrigger.cs" />
+    <Compile Include="Assets\Scripts\guyExplosion.cs" />
+    <Compile Include="Assets\Scripts\MoveOnCollide.cs" />
+    <Compile Include="Assets\Scripts\playerHealth.cs" />
+    <Compile Include="Assets\Scripts\RemoveSoundIfOver.cs" />
+    <Compile Include="Assets\Scripts\Startup.cs" />
+    <Compile Include="Assets\Scripts\ZombieAI.cs" />
+    <Compile Include="Assets\Scripts\ZombieSpawner.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
@@ -309,6 +309,12 @@
     <Reference Include="Boo.Lang">
       <HintPath>/Applications/Unity/Hub/Editor/2018.1.9f2/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{DEDB1489-59AB-C5C0-2987-5797E7265308}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
