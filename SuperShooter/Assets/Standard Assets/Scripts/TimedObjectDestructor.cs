@@ -17,7 +17,7 @@ public partial class TimedObjectDestructor : MonoBehaviour
         {
             this.transform.DetachChildren();
         }
-        UnityEngine.Object.DestroyObject(this.gameObject);
+        Destroy(this.gameObject);
     }
 
     public TimedObjectDestructor()

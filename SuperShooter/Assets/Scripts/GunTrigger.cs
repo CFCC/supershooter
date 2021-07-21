@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 [System.Serializable]
@@ -11,7 +12,7 @@ public partial class GunTrigger : MonoBehaviour
     public bool projectileOrientToPlayer;
     public string inputButtonString;
     public int ammoCount;
-    public GUIText ammoLabel;
+    public Text ammoLabel;
     public string ammoType;
     public AudioClip ammoPickupSound;
     public GameObject ammoDropPrefab;

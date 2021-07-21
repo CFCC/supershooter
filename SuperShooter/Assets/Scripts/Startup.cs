@@ -9,11 +9,10 @@ public partial class Startup : MonoBehaviour
         if (Input.GetButton("Fire3"))
         {
             GameObject obj = null;
-            int i = 0;
             obj = GameObject.Find("BowlingBall(Clone)");
             if (obj)
             {
-                UnityEngine.Object.DestroyObject(obj);
+                Destroy(obj);
             }
         }
     }

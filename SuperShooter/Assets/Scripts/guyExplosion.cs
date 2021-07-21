@@ -52,7 +52,7 @@ public partial class guyExplosion : MonoBehaviour
 
     public virtual void DestroyNow()
     {
-        UnityEngine.Object.DestroyObject(this.gameObject);
+        Destroy(gameObject);
     }
 
 }

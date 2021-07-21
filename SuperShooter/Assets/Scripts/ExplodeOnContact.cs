@@ -17,7 +17,7 @@ public partial class ExplodeOnContact : MonoBehaviour
             ContactPoint contact = c.contacts[0];
             Collider collider = (Collider) this.GetComponent(typeof(Collider));
             Renderer renderer = (Renderer) this.model.GetComponent(typeof(Renderer));
-            UnityEngine.Object.DestroyObject(this.model);
+            Destroy(model);
             collider.isTrigger = true;
             this.GetComponent<Rigidbody>().velocity = Vector3.zero;
             Quaternion rot = Random.rotation;
@@ -58,7 +58,7 @@ public partial class ExplodeOnContact : MonoBehaviour
 
     public virtual void DestroyNow()
     {
-        UnityEngine.Object.DestroyObject(this.gameObject);
+        Destroy(gameObject);
     }
 
 }
