@@ -644,17 +644,8 @@
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.12f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
  </Reference>
- <Reference Include="Purchasing.Common">
- <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/Purchasing.Common.dll</HintPath>
- </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -668,15 +659,6 @@
  <Reference Include="Unity.TextMeshPro">
  <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.Purchasing.SecurityStub">
- <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityStub.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
@@ -686,14 +668,44 @@
  <Reference Include="Unity.Rider.Editor">
  <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Analytics">
- <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/Analytics.dll</HintPath>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Purchasing.Common">
+ <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/Purchasing.Common.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <Reference Include="UnityEngine.Purchasing.SecurityStub">
+ <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityStub.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Tilemap.Editor">
+ <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements.Editor">
+ <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing.Codeless">
+ <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/UnityEngine.Purchasing.Codeless.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Monetization">
+ <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+ <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
  <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
@@ -701,32 +713,20 @@
  <Reference Include="UnityEngine.Purchasing.SecurityCore">
  <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.Purchasing.Codeless">
- <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/UnityEngine.Purchasing.Codeless.dll</HintPath>
+ <Reference Include="UnityEngine.Purchasing.Stores">
+ <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/UnityEngine.Purchasing.Stores.dll</HintPath>
+ </Reference>
+ <Reference Include="Analytics">
+ <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.XR.LegacyInputHelpers">
  <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Purchasing.Stores">
- <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/UnityEngine.Purchasing.Stores.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.XR.LegacyInputHelpers">
- <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Monetization">
- <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Purchasing">
  <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Advertisements.Editor">
- <HintPath>/Users/cosmotic/Documents/git/supershooter/SuperShooter/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
