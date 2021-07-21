@@ -81,9 +81,9 @@ public partial class MainMenuGUI : MonoBehaviour
             int activeSceneBuildIndex = SceneManager.GetActiveScene().buildIndex;
             if (activeSceneBuildIndex != 1 && activeSceneBuildIndex != 2 && activeSceneBuildIndex != 3)
             {
-                skirmish = GUILayout.Button("Practice", new GUILayoutOption[] { });
-                campaign = GUILayout.Button("Campaign", new GUILayoutOption[] { });
-                campaign2 = GUILayout.Button("Campaign2", new GUILayoutOption[] { });
+                skirmish = GUILayout.Button("Practice");
+                campaign = GUILayout.Button("Campaign");
+                campaign2 = GUILayout.Button("Campaign2");
             }
 
             GUILayout.FlexibleSpace();

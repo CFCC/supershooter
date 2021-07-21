@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5ec85389-b4cb-411a-9ee5-d729b4c3d3dc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="unityUpgrade" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C421EDCA-F2C0-468C-9E23-6F7BFD210936/90/841ef560/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/cosmotic/Documents/git/supershooter/SuperShooter/Assets/Scripts/Startup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/cosmotic/Documents/git/supershooter/SuperShooter/Assets/Scripts/Startup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C421EDCA-F2C0-468C-9E23-6F7BFD210936/51/6270946b/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/cosmotic/Documents/git/supershooter/SuperShooter/Assets/Standard Assets/Water/Sources/FX-Water Simple.shader" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/cosmotic/Documents/git/supershooter/SuperShooter/Assets/Scripts/GunTrigger.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Scripts/ActivateTrigger.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/cosmotic/Documents/git/supershooter/SuperShooter/Assets/Scripts/GunTrigger.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MainMenu/MainMenuGUI.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/ZombieAI.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Zombie Spawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GunTrigger.cs" />
+      <option value="$PROJECT_DIR$/Assets/Standard Assets/Scripts/TimedObjectDestructor.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/guyExplosion.cs" />
+      <option value="$PROJECT_DIR$/Assets/Standard Assets/Scripts/ActivateTrigger.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ExplodeOnContact.cs" />
+      <option value="$PROJECT_DIR$/Assets/UnityScript2CSharp/Editor/UnityScript2CSharpRunner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Startup.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/playerHealth.cs" />
+      <option value="$PROJECT_DIR$/.gitignore" />
+      <option value="$PROJECT_DIR$/Assets/MainMenu/MainMenuGUI.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="1uRxGZf7EsdnajNcS3p8jugchPT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.350215" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../SuperShooter.app/Contents/MacOS/SuperShooter" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../SuperShooter.app/Contents/MacOS" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ec85389-b4cb-411a-9ee5-d729b4c3d3dc" name="Default Changelist" comment="" />
+      <created>1624642125551</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624642125551</updated>
+      <workItem from="1624642131486" duration="2162000" />
+      <workItem from="1624644463795" duration="4257000" />
+      <workItem from="1626906929228" duration="3378000" />
+    </task>
+    <task id="LOCAL-00001" summary="Upgrade from Unity 5 to Unity 2018">
+      <created>1624644881045</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624644881045</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Upgrade from Unity 5 to Unity 2018">
+      <created>1624645085927</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624645085927</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Unity upgrade">
+      <created>1626907199191</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1626907199192</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added a whole bunch of files the unity upgrade created but didn't add to git">
+      <created>1626908243780</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1626908243780</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Upgrade from Unity 5 to Unity 2018" />
+    <MESSAGE value="Unity upgrade" />
+    <MESSAGE value="Added a whole bunch of files the unity upgrade created but didn't add to git" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a whole bunch of files the unity upgrade created but didn't add to git" />
+  </component>
+</project>
